@@ -1,0 +1,21 @@
+package com.formacionbdsprinbootappItem.models.service;
+
+import java.util.List;
+
+import com.formacionbdsprinbootappItem.models.Item;
+
+public class ItemServiceImpl implements Itemservice {
+
+	@Override
+	public List<Item> findAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Item findById(long id, Integer cantidad) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
